@@ -45,7 +45,7 @@ for ( uint8_t i = 0; i < 4; i++) {  //
       Serial.println( mySwitch.getReceivedValue() );
 
     mySwitch.resetAvailable();
-    delay(4000);
+    delay(4000);// delay de 4 segundos para no saturar la lectura
   }
 }
 }
